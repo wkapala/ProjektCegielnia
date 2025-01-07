@@ -2,9 +2,9 @@
 #include "tasmociag.h"
 #include <iostream>
 
-Pracownik::Pracownik(int id, int masaCeg造) : id(id), masaCeg造(masaCeg造) {}
+Pracownik::Pracownik(int id, int masaCegly) : id(id), masaCegly(masaCegly) {}
 
 void Pracownik::dodajCegle(Tasmociag& tasmociag)
 {
-	std::cout << "Pracownik " << id << " dodaje cegle o masie " << masaCeg造 << "jednostek." << std::endl;
+	std::cout << "Pracownik " << id << " dodaje cegle o masie " << masaCegly << "jednostek." << std::endl;
 }	

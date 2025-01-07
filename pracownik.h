@@ -7,10 +7,10 @@ class Pracownik
 {
 private:
 	int id;
-	int masaCeg³y;
+	int masaCegly;
 
 public:
-	Pracownik(int id, int masaCeg³y);
+	Pracownik(int id, int masaCegly);
 	void dodajCegle(Tasmociag& tasmociag);
 };
 #endif // Pracownik_H
