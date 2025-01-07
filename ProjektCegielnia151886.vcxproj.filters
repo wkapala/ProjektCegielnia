@@ -18,5 +18,37 @@
     <ClCompile Include="ProjektCegielnia151886.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pracownik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tasmociag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ciezarowka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dyspozytor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pracownik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmociag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ciezarowka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dyspozytor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pomocnicze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include=".gitignore.txt" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,7 @@
+# Ignorowanie folderu Visual Studio
+.vs/
+
+# Ignorowanie plików tymczasowych
+*.vsidx
+*.vcxproj.user
+*.suo

@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ciezarowka.cpp" />
+    <ClCompile Include="dyspozytor.cpp" />
+    <ClCompile Include="pracownik.cpp" />
     <ClCompile Include="ProjektCegielnia151886.cpp" />
+    <ClCompile Include="tasmociag.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ciezarowka.h" />
+    <ClInclude Include="dyspozytor.h" />
+    <ClInclude Include="pomocnicze.h" />
+    <ClInclude Include="pracownik.h" />
+    <ClInclude Include="tasmociag.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include=".gitignore.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
