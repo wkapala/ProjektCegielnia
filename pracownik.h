@@ -1,17 +1,30 @@
-#ifndef Pracownik_H
-#define Pracownik_H
+#ifndef PRACOWNIK_H
+#define PRACOWNIK_H
 
-class Tasmociag;
+#include <string>
+
 
 class Pracownik
 {
 private:
-	int id;
-	int masaCegly;
+    int id_;            ///< Unikalne ID pracownika (np. 1,2,3)
+    int masaCegly_;     ///< Masa ceg³y, jak¹ wytwarza dany pracownik
 
 public:
-	Pracownik(int id, int masaCegly);
-	void dodajCegle(Tasmociag& tasmociag);
-};
-#endif // Pracownik_H
+    
+    Pracownik(int id, int masaCegly);
 
+    
+    ~Pracownik();
+
+   
+    void produkujCegly();
+
+    
+    int getMasaCegly() const;
+
+    
+    int getId() const;
+};
+
+#endif // PRACOWNIK_H
