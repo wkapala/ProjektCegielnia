@@ -3,6 +3,10 @@
 
 #include <string>
 
+/**
+ * Klasa reprezentuj¹ca pracownika (P1, P2 lub P3),
+ * który dok³ada ceg³y na taœmoci¹g.
+ */
 
 class Pracownik
 {
